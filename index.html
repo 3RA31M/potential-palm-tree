@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Birthday Surprise</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{
+    height:100%;
+    background:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F553184.jpg&f=1&nofb=1&ipt=cd47b3a43d5693cc2518544fd9587b781285c0d90c2cc9c45d35ec18ded8843e") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:"Courier New",monospace;
+    overflow:hidden;
+  }
+
+  .notepad {
+    width:85%;
+    max-width:400px;
+    background:#fde081;
+    border:2px solid #d9c48c;
+    border-radius:10px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+    padding:20px;
+    line-height:1.6;
+    font-size:16px;
+    position:relative;
+    animation:fadeIn 1s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from{opacity:0;transform:translateY(30px)}
+    to{opacity:1;transform:translateY(0)}
+  }
+
+  .typed-text {
+    white-space:pre-wrap;
+    color:#333;
+  }
+
+  /* photo section (hidden initially) */
+  .photo-section {
+    display:none;
+    width:95%;
+    max-width:420px;
+    justify-content:space-between;
+    gap:12px;
+  }
+
+  .photo {
+    flex:1;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.25);
+  }
+
+  .photo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .wish {
+    position:absolute;
+    bottom:82%;
+    left:37%;
+    transform:translateX(-90%);
+    color:#559431;
+    font-size:22px;
+    font-weight:bold;
+    opacity:0;
+    animation:fadeUp 1s ease forwards;
+    animation-delay:1s;
+  }
+
+  @keyframes fadeUp {
+    from{opacity:0;transform:translate(-50%,20px)}
+    to{opacity:1;transform:translate(-50%,0)}
+  }
+
+  @media(max-width:280px){
+    .photo-section{flex-direction:column;align-items:center}
+    .photo{width:90%}
+  }
+</style>
+</head>
+<body>
+
+<div class="notepad" id="note">
+  <div class="typed-text" id="typed"></div>
+</div>
+
+<div class="photo-section" id="photos">
+  <div class="photo"><img src="img1.jpg" alt="photo 1"></div>
+  <div class="photo"><img src="img2.jpeg" alt="photo 2"></div>
+</div>
+
+<div class="wish" id="wish">Happy Birthday to you girll🫶🫶...</div>
+
+<script>
+const text = `Hey there 👋
+Just wanted to drop by and say... you're seriously one of a kind.
+You deserve all the smiles, love, and happiness today — and always 💖
+____________________________
+btw that this above text was AI generated here are my words for you 
+// The one who walks like she's drunk and makes everyone her brother, 
+// one of the big-brained person I've ever met.
+Happy birthday to you girl!" 
+wait for 5 seconds.....`;
+  
+const typed = document.getElementById("typed");
+const note = document.getElementById("note");
+const photos = document.getElementById("photos");
+const wish = document.getElementById("wish");
+
+let i = 0;
+
+function typeWriter() {
+  if (i < text.length) {
+    typed.innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, 30); // typing speed
+  } else {
+    setTimeout(showPhotos, 5000); // wait 5s after typing ends
+  }
+}
+
+function showPhotos() {
+  note.style.transition = "opacity 1s ease";
+  note.style.opacity = 0;
+  setTimeout(() => {
+    note.style.display = "none";
+    photos.style.display = "flex";
+    wish.style.opacity = 1;
+  }, 1000);
+}
+
+typeWriter();
+</script>
+
+</body>
+</html>
