@@ -12,16 +12,15 @@ This site is all about celebrating **[Her Name]** and everything that makes her 
 
 ## 🚀 **What is this?**
 
-This is a **birthday celebration** website made to honor **[Her Name]**. Packed with everything she loves (or at least, everything I think she’d love!), this site includes interactive features, surprises, and a ton of birthday fun. Let’s make this day unforgettable – because who says birthdays can’t be code-powered? 😉
+This is a **birthday celebration** website made to honor **[Name]**. Packed with everything **[he/she]** loves (or at least, everything I think she’d love!), this site includes interactive features, surprises, and a ton of birthday fun. Let’s make this day unforgettable – because who says birthdays can’t be code-powered? 😉
 
 ---
 
 ## 🌟 **Features**
 
-* **Countdown Timer**: A countdown to the big day (November 13th!), because the anticipation is part of the fun! ⏰
-* **Memory Lane**: A gallery full of memories, photos, and moments that celebrate **[Her Name]**’s journey 📸
+* **Memory Lane**: A gallery full of memories, photos, and moments that celebrate **[his/Her Name]**’s journey 📸
 * **Birthday Games**: A few fun, birthday-themed games for extra entertainment 🎮
-* **Birthday Wishes Wall**: Leave your best birthday messages for **[Her Name]**, or share why she’s the best person ever! 📝
+* **Birthday Wishes Wall**: Leave your best birthday messages for **[his/Her Name]**, or share why she’s the best person ever! 📝
 * **Hidden Surprises**: The code is full of little surprises waiting to be discovered... 🕵️‍♀️
 
 ---
@@ -29,7 +28,7 @@ This is a **birthday celebration** website made to honor **[Her Name]**. Packed 
 ## 🛠️ **Technologies Used**
 
 * **HTML** for structure
-* **CSS** for styling (with extra sparkles) ✨
+* **CSS** for styling (with extra sparkles)
 * **JavaScript** for interactive fun 🖱️
 * **Node.js** for handling the magic behind the scenes (because everything runs smoother with a little server-side help) 🧙‍♂️
 
@@ -45,7 +44,7 @@ This is a **birthday celebration** website made to honor **[Her Name]**. Packed 
 
 2. Open the `index.html` file in your browser and let the birthday magic unfold! 🎈
 
-3. Explore the features, play the games, and don’t forget to leave a heartfelt message for **[Her Name]**! 😄
+3. Explore the features, play the games, and don’t forget to leave a heartfelt message for **[His/Her Name]**! 😄
 
 ---
 
