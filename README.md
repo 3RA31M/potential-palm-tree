@@ -51,6 +51,6 @@ This is a **birthday celebration** website made to honor **[Her Name]**. Packed 
 
 ## 🎁 **Contribute**
 
-Want to add something special? Contributions are always welcome! You can add new features, suggest design tweaks, or even drop a sweet birthday quote. Just open a pull request and I’ll check it out! ❤️
+Want to add something special? Contributions are always welcome! You can add new features, suggest design tweaks, or even drop a sweet birthday quote. Just open a pull request and I’ll check it out! 
 
 ---
