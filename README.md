@@ -54,17 +54,3 @@ This is a **birthday celebration** website made to honor **[Her Name]**. Packed 
 Want to add something special? Contributions are always welcome! You can add new features, suggest design tweaks, or even drop a sweet birthday quote. Just open a pull request and I’ll check it out! ❤️
 
 ---
-
-## 📅 **Why?**
-
-Because **[Her Name]** deserves the best birthday celebration ever, and this site is my way of adding a little extra sparkle to her special day. Birthdays are about more than just cake (though there’s cake too) — they’re about celebrating the amazing person she is! 🎉
-
----
-
-## 🥳 **Happy Birthday to Her!**
-
-Thanks for visiting **[Her Name]**'s birthday site! Explore, play, and leave your birthday wishes. Let’s make her day unforgettable! 🎂🎁
-
----
-
-README has **November 13** as the special date! Feel free to customize further if needed! 🎉
